@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-Application<starter>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.mak.starter.Application",
+      "projectName": "starter",
+      "args": "--spring.profiles.active=dev",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

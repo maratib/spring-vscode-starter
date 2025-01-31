@@ -1,0 +1,8 @@
+server:
+  servlet:
+    context-path: /api
+spring:
+  application:
+    name: starter
+  main:
+    banner-mode: off

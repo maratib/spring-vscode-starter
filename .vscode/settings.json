@@ -1,0 +1,9 @@
+{
+  "java.compile.nullAnalysis.mode": "disabled",
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "testing.automaticallyOpenTestResults": "neverOpen",
+  "java.test.config": {
+    "cwd": "${workingDirectory}",
+    "args": ["--spring.profiles.active=dev"]
+  }
+}
